@@ -1,7 +1,12 @@
 # Non-markovian Graph Edit Networks
 
-This repository focuses on Non-markovian Graph Edit Networks. In more detail, we attempt to extend the Graph Edit Networks proposed by Paassen et al. by the methods that have been proposed by Pareja et al. to account for non-Markovian systems. For further details on the methodology and the results see the report [here](https://github.com/jatlantic/GNN/blob/main/Non-Markovian%20GEN.pdf).
+This repository focuses on Non-markovian Graph Edit Networks. In more detail, we attempt to extend the Graph Edit Networks proposed by Paassen et al. by the methods that have been proposed by Pareja et al. to account for non-Markovian systems. For further details on the methodology and the results see the report [here](https://github.com/felixboelter/Non-Markovian-Graph-Edit-Networks/blob/main/Non-Markovian%20GEN.pdf).
+## Contributors
+[Daniele Raffo](https://github.com/SirMassetti) daniele.raffo@studio.unibo.it 
 
+[Julius Schulte](https://github.com/jatlantic) julius.schulte@usi.ch
+
+[Felix Boelter](https://github.com/felixboelter) felix.boelter@gmail.com
 ## Datasets
 
 We used two different temporal network datasets to test the graph edit networks in a non-markovian setting:
@@ -11,6 +16,12 @@ We used two different temporal network datasets to test the graph edit networks 
 
 
 ## Getting Started
+First install the `requirements.txt` file by creating a new conda environment using the commands:
+
+```
+$ conda config --append channels conda-forge
+$ conda create --name <env> --file requirements.txt
+```
 
 All information to run the code yourself is contained in the `HEP_CollegeMSG_Testing.ipynb` and `graph_dynamical_systems.ipynb` files where each cell can be run from top to bottom. 
 
